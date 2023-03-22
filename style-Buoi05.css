@@ -1,0 +1,46 @@
+.bai a:visited{
+    color : #551A8B
+} 
+/* .bai = class trang chủ */
+/* Bai01-1  : bảng */
+.bai01-1{
+    min-width: 250px;
+    display : inline-block;
+    margin : 0px;
+    padding :0px;
+    border: 1px solid #ddd;
+}
+.bai01-1 li{
+    list-style-type: none;
+    border: 1px solid #ddd;
+    padding : 10px;
+    background : #f3f3f3
+    
+}
+
+.bai01-1 li:hover{
+    background :#0056A6 ;
+    color : white;
+}
+
+.bai01-2 a{
+    text-decoration: none;
+}
+.bai01-2 i{
+    color: black;
+    display: inline-block;
+    width: 40px;
+    height : 40px;
+    border-radius: 50%;
+    text-align: center;
+    background: #d1cdcd;
+}
+
+.bai01-2 i::before {
+    line-height: 40px;
+}
+.bai01-2 i:hover{
+    background: #A64200;
+    color : white;
+}
+
